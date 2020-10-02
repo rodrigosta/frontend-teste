@@ -2,7 +2,7 @@
 Implementar o design compartilhado pelo link abaixo, utilizando HTML, JS e CSS. 
 Sinta-se a vontade para utilizar frameworks front-end (tailwind, Bootstrap, foundation, etc..) para acelerar seu desenvolvimento.
 
-https://zpl.io/2pEA5ON
+https://www.figma.com/file/Pdd6VRN08X6kCyZlIeuWEG/Teste-Developers
 
 ## Requisitos
 - Ter conhecimento de Git
