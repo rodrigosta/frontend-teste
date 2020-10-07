@@ -4,6 +4,7 @@ body{
     /* background-color: green; */
     /* padding: 15px; */
     /* mudar isso */
+    
 }
 
 
@@ -11,7 +12,6 @@ body{
     padding: 30px;
 
 }
-
 
 .nav-link{
     padding: 19px 0px 0px 39px;
@@ -27,8 +27,7 @@ body{
     /* revisar */
 }
 
-.search{
-    
+.search{    
     padding-left: 45px;
     padding-top: 10px;
     background-color: #efefef;
@@ -44,7 +43,6 @@ body{
 
 
 .subscribe{
-    
     background: #FFFFFF;
     border-radius: 35px;
     color: #ef2779;
@@ -59,10 +57,10 @@ body{
 .subscribe:hover{
     background-color: white;
     color: #38A3F1;
-   
 }
 
 /* ______________________________ */
+
 h1{
     font-size: 55px;
     font-weight: 900;
@@ -70,19 +68,22 @@ h1{
     line-height: 65px;
     color: white;
     text-align: left;
-    margin: 120px 0px 0px 100px;
-    /* margin-left: 100px; */
-}
+    /* margin: 120px 0px 0px 100px; */
+    /* /* margin-left: 100px; */
+    margin-top: 40px;
+ } 
 
+ 
 h4{
     font-size: 16px;
     color: white;
     line-height: 20px;
     text-align: left;
-    margin: 20px 0px 0px 100px;
+    /* margin: 20px 0px 0px 100px; */
     /* margin-left: 100px; */
+    margin-top: 20px;
 }
-
+ 
 .try{
     width: 236px;
     height: 60px;
@@ -90,11 +91,34 @@ h4{
     padding: 16px;
     color: #38A3F1;
     position: static;
-    margin: 50px 0px 0px 100px;
-    
-}
-
+    /* margin: 50px 0px 0px 100px; */
+    margin-top: 50px;
+} 
+ 
 .try:hover{
     color: #ef2779;
     background-color: white;
+} 
+
+#features{
+    padding: 80px;
+    color:white;
+    background: #252B42;
+    text-align: center;
+}
+
+.features-title{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+
+
+.img-features{
+    position: static;
+    width: 44px;
+    height: 44px;
+
 }
