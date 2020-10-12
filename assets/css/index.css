@@ -1,10 +1,12 @@
 body{
-    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
-    /* background-color: green; */
+    background-color: #252B42;
     /* padding: 15px; */
     /* mudar isso */    
 }
 
+.home-content{
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
 
 .navbar{
     padding: 30px;
@@ -99,33 +101,49 @@ body{
 
 
 
-
 /* second section */
+.title-section{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    
+}   
+    
+.subtitle-section{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
 #features{
     padding: 80px;
     color:white;
     background: #252B42;        
 }
+.container-features{
+    margin-left: 5%;
+}
 
 .features-content{
     margin-top: 100px;
+    padding: 0px 50px 0px 50px;
 }
 
 .fingertips{
-
-font-size: 22px;
-text-align: center;
-}
-
-.title-section{
+    font-size: 22px;
     text-align: center;
-    font-size: 56px;
+    font-weight: 700px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
 }
 
-.subtitle-section{
-    text-align: center;
-    font-size: 16px;
-}
 
 .features-title{
     position: static;
@@ -133,7 +151,7 @@ text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     line-height: 33px;
-    padding-right: 100px;
+    padding-right: 60px;
     
     
 }
@@ -145,10 +163,14 @@ text-align: center;
     
 }
 
+
+
 .features-text{
     text-align: justify;
     padding-top: 20px;
-    /* padding-right: 120px; */
+    padding-right: 100px;
+    /* padding-left: 50px; */
+    
 }
 
 
@@ -199,6 +221,38 @@ text-align: center;
 .computer{
     margin-top: 100px;
     width: 900px;
-    height: 450;
+    height: 450px;
+}
 
+.subs{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe-section{
+ 
+    width: 353px;
+    height: 54px;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-button{
+    display: block;
+    width: 353px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #EF2779;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.partners-section{
+    color: white;
 }
