@@ -142,6 +142,7 @@ body{
     font-weight: 700px;
     line-height: 33px;
     letter-spacing: 0.1px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -162,8 +163,6 @@ body{
     height: 44px;
     
 }
-
-
 
 .features-text{
     text-align: justify;
@@ -192,6 +191,7 @@ body{
 .subtitle-lightning{
     font-size: 16px;
     margin-top: 50px;
+    font-weight: 700;
 
 }
 
@@ -223,12 +223,38 @@ body{
     width: 900px;
     height: 450px;
 }
-
+/* ____________ */
 .subs{
     margin-top: 200px;
     text-align: center;
     color: white;
 }
+
+.prototyping{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+    font-family: 'Roboto';
+}
+
+.subsOurNews{
+    margin-top: 69px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    line-height: 33px;
+    font-family: 'Roboto';
+}
+
+.available{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
 
 .subscribe-section{
  
@@ -239,6 +265,7 @@ body{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
 }
 
 .subscribe-button{
@@ -255,4 +282,57 @@ body{
 
 .partners-section{
     color: white;
+    margin-top: 200px;
+}
+
+.partners{
+    text-align: center;
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.partners-sub{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    
+}
+
+
+.content-partners{
+    padding: 75px 200px 0px 200px;
+}
+
+.partners-title{
+    text-align: center;
+}
+
+.img-partners{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners-text{
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.button-partners{
+    height: 65px;
+    width: 236px;
+    border-radius: 35px;
+    background-color: #38A3F1;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
 }
